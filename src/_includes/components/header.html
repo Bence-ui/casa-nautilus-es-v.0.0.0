@@ -147,13 +147,16 @@
 				</ul>
 			</div>
 		</nav>
-		<a
-			href="https://hotels.cloudbeds.com/es/reservation/1qSOee"
-			class="cs-button-solid cs-nav-button"
-			target="_blank"
-		>
-			Reserva Ahora
-		</a>
+		<a href="https://hotels.cloudbeds.com/es/reservation/1qSOee"
+   class="cs-button-solid cs-nav-button"
+   target="_blank"
+   onclick="gtag('event', 'book_now_click', {
+      'event_category': 'engagement',
+      'event_label': 'Spanish Book Now - Reserva Ahora'
+   });">
+   Reserva Ahora
+</a>
+
 		<!--Dark Mode toggle, uncomment button code if you want to enable a dark mode toggle-->
 		<button id="dark-mode-toggle" aria-label="dark mode toggle">
 			<svg
